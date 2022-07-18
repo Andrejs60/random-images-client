@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import ImagesGrid from "@/components/ImagesGrid.vue";
+import ImagesGrid from "@/components/images/ImagesGrid.vue";
 
 export default {
   name: "RandomView",

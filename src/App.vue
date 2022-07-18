@@ -1,11 +1,16 @@
 <template>
-  <nav>
-    <router-link to="/">Ascending</router-link> |
-    <router-link to="/descending">Descending</router-link> |
-    <router-link to="/random">Random</router-link>
-  </nav>
+  <NavBar />
   <router-view />
 </template>
+
+<script>
+import NavBar from "./components/navigation/NavBar.vue";
+
+export default {
+  name: "App",
+  components: { NavBar },
+};
+</script>
 
 <style>
 #app {
@@ -16,16 +21,13 @@
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
-}
-
-nav a {
+h1 {
   font-weight: bold;
-  color: #2c3e50;
+  font-size: 50px;
+  margin: 24px;
 }
 
-nav a.router-link-exact-active {
-  color: #42b983;
+body {
+  background: #edede9;
 }
 </style>
