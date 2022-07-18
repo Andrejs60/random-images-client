@@ -39,4 +39,16 @@ nav a.router-link-exact-active {
   color: #000;
   background: #d5bdaf;
 }
+
+@media (max-width: 500px) {
+  nav {
+    display: inline-block;
+    width: 100%;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 4px;
+  }
+}
 </style>
