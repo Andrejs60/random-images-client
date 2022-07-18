@@ -1,9 +1,10 @@
 <template>
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Ascending</router-link> |
+    <router-link to="/descending">Descending</router-link> |
+    <router-link to="/random">Random</router-link>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
